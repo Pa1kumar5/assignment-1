@@ -1,0 +1,55 @@
+ASSIGNMENT -1
+1) 1) * -> expression
+'hello' -> value
+-87.8 -> value
+- -> expression
+/ -> expression
++ -> expression
+6 -> value
+2) String:
+A string is a sequence of characters enclosed within the
+single or double quotes.
+Can contain any letters, digits, special characters.
+Variable:
+Where as, a variable is a name given to a memory location to
+store values.
+Variables cannot be a keyword.
+Variables cannot start with '$'sign or any special
+character.
+Can start with '_' underscore.
+3) Integer:
+Whole numbers comes under integers datatype.
+'int' keyword is used to denote the integer datatype.
+Float:
+Numbers with decimal values are stored in this format.
+'float' keyword is used to denote the float datatype.
+String:
+String is a sequence of characters enclosed within a single
+or double quotes.
+'String' keyword is used to denote the string datatype.
+4) Expressions are made up of operators and operands.
+Expressions are evaluated based on the precedence of the
+operators to produce a value or result.
+5) The expression in Python produces some value or result after
+being interpreted by the Python interpreter.
+A statement in Python is not evaluated for some results.
+Every expression is a statement but every statement need not
+be an expression.
+6) bacon = 22
+bacon + 1
+For the following code after execution the bacon contains
+the value 22.
+7) 'spam'+'spamspam' = spamspamspam
+'spam'*3 = spamspamspam
+8) eggs is a valid variable name while 100 is invalid because
+the variable name can start with a letter but not with a digit.
+9) int(), float(), str() functions can be used to get the
+integer, floating-point number, or string version of a value.
+10) 'I have eaten'+99+'burritos'
+This expression causes an error because the String and int
+type cannot be concatenated.
+We can ony concatenate two strings.
+So to make the above expression to work we need to convert
+the integer type to string type by enclosing the number within
+the single or double quotes.
+'I have eaten'+'99'+'burritos'
